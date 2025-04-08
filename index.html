@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 15px; text-align: center; 
+	margin-top: 10px; /* Add space between the image and the text */}
+    .attribution a { color: hsl(0, 0%, 100%); }
+
+  </style>
+  <style>
+	body, html {
+		height: 100%; /* Ensure the body and html take up the full height */
+		margin: 0; /* Remove default margin */
+		display: flex; /* Enable flexbox */
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		text-align: center; /* Center text horizontally */
+		background-color: #bfcdd6;  
+	}
+
+	.box {
+        background-color: white; /* Square background */
+        padding: 15px; /* Space inside the box */
+        border-radius: 15px; /* Optional: Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+	  
+	img {
+		max-width: 100%; /* Optional: Make image responsive */
+		height: auto; /* Keep the aspect ratio */
+		border-radius: 10px; 
+	}
+	
+	h2 { 
+		font-size: 18px; 
+		margin-top: 10px; /* Add space between the image and the text */
+		max-width: 200px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 5px;}
+		
+	p { 
+		font-size: 13px; 
+		margin-top: 10px; /* Add space between the image and the text */
+		max-width: 200px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-top: 5px;}
+  </style>
+	
+</head>
+<body>
+	<div class="box">
+	  <img src="images/image-qr-code.png" alt="My test image" style="width:220px;height:220px;" />
+	  <h2>Improve your front-end skills by building projects</h2>
+	  <p style="color:grey;">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+	</div>
+</body>
+</html>
